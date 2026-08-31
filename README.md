@@ -16,3 +16,11 @@ See `CREDITS.txt` for full credits and a changelog.
 
 Roll for the Galaxy is the property of its designers and Rio Grande Games.
 This is a fan-made implementation, not affiliated with or endorsed by them.
+
+## Workshop item
+
+Steam Workshop ID: **3793269338**
+https://steamcommunity.com/sharedfiles/filedetails/?id=3793269338
+
+Keep this ID — Tabletop Simulator needs it to publish updates
+(UPLOAD -> WORKSHOP UPLOAD -> "Update Workshop" tab).
