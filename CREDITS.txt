@@ -1,0 +1,61 @@
+================================================================
+ROLL FOR THE GALAXY (Complete) - Repaired Edition
+================================================================
+
+CREDITS
+
+Game design ......... Wei-Hwa Huang & Tom Lehmann
+Publisher ........... Rio Grande Games
+Original TTS mod .... RossenX and Erg0
+Scans ............... Miranda and the Post-Holy Ghost
+Scripted + Counters . GAME_OVER676
+Repairs ............. (this edition)
+
+Roll for the Galaxy is the property of its designers and Rio Grande
+Games. This is a fan-made Tabletop Simulator implementation and is
+not affiliated with or endorsed by them.
+
+----------------------------------------------------------------
+WHAT WAS REPAIRED
+
+The mod dated from 2018 and had decayed as its asset hosts went
+offline. Every model was hosted on Pastebin; all four pastes have
+since been deleted (HTTP 404, no Wayback snapshots), so every tile,
+chip and token failed to load.
+
+MODELS - rebuilt from scratch
+  * Square tile (game / home world / phase) - 81 objects
+  * Faction tile, 2x1 wide - 23 objects
+  * Victory point chip, pointy-top hexagon - 3 objects
+  Geometry and UVs were derived by measuring all 107 texture
+  atlases; each stores its front and back artwork packed into one
+  corner, at differing offsets and rotations.
+
+ORIENTATION
+  * Front/back faces mapped to the correct halves of each atlas
+  * Corrected the OBJ-to-Unity handedness flip (mirrored art)
+  * Square tiles: development side is stored rotated 90 degrees
+  * Home world tiles were dealt face-down (blank side up)
+  * Phase tiles now start X-side up, per the rulebook
+
+ARTWORK
+  * All 107 textures resampled to a canonical artwork box, so no
+    tile shows padding bleed or clipped edges
+  * Horizontal scan banding suppressed (measured 4.16x row/column
+    variance in the source scans)
+  * Levels restored - the scans used only 171 of 255 tonal levels
+
+TABLE
+  * Background restored (the Dropbox-hosted sky was returning HTML)
+  * Lighting rebalanced; tile materials set matte
+  * Game tiles bag enlarged and repositioned
+
+DICE CUPS - working again
+  The original cups were disabled by the author, labelled "Not
+  Working with Latest TTS", because Unity forbids a concave collider
+  on a movable object. Rebuilt as container objects:
+  * Shake the cup and release, or tip it over, to pour
+  * Dice are randomised as they leave the cup
+  * Shake detection uses onObjectRandomize, so it triggers exactly
+    when TTS plays its own shake sound
+  * One cup per seat, beside that player's counter
