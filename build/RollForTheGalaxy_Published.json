@@ -31760,7 +31760,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "https://raw.githubusercontent.com/ianFullStack/rftg-tts-assets/main/textures/rftg_quick_reference.png",
+        "ImageURL": "https://raw.githubusercontent.com/ianFullStack/rftg-tts-assets/main/textures/rftg_quick_reference_v2.png",
         "ImageSecondaryURL": "",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
@@ -31803,7 +31803,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "https://raw.githubusercontent.com/ianFullStack/rftg-tts-assets/main/textures/rftg_quick_reference.png",
+        "ImageURL": "https://raw.githubusercontent.com/ianFullStack/rftg-tts-assets/main/textures/rftg_quick_reference_v2.png",
         "ImageSecondaryURL": "",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
@@ -31846,7 +31846,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "https://raw.githubusercontent.com/ianFullStack/rftg-tts-assets/main/textures/rftg_quick_reference.png",
+        "ImageURL": "https://raw.githubusercontent.com/ianFullStack/rftg-tts-assets/main/textures/rftg_quick_reference_v2.png",
         "ImageSecondaryURL": "",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
@@ -31889,7 +31889,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "https://raw.githubusercontent.com/ianFullStack/rftg-tts-assets/main/textures/rftg_quick_reference.png",
+        "ImageURL": "https://raw.githubusercontent.com/ianFullStack/rftg-tts-assets/main/textures/rftg_quick_reference_v2.png",
         "ImageSecondaryURL": "",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
@@ -31932,7 +31932,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "https://raw.githubusercontent.com/ianFullStack/rftg-tts-assets/main/textures/rftg_quick_reference.png",
+        "ImageURL": "https://raw.githubusercontent.com/ianFullStack/rftg-tts-assets/main/textures/rftg_quick_reference_v2.png",
         "ImageSecondaryURL": "",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
