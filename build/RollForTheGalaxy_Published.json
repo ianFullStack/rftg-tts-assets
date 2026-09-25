@@ -9893,7 +9893,1569 @@
       "Number": 0,
       "LuaScript": "",
       "LuaScriptState": "",
-      "XmlUI": ""
+      "XmlUI": "",
+      "ContainedObjects": [
+        {
+          "GUID": "wd0000",
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 43.0046349,
+            "posY": 1.27250028,
+            "posZ": -2.409789,
+            "rotX": 90.0,
+            "rotY": 0.000103788952,
+            "rotZ": 0.0,
+            "scaleX": 0.625,
+            "scaleY": 0.625,
+            "scaleZ": 0.625
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.9999998,
+            "g": 0.9921792,
+            "b": 0.9999998
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": false,
+          "Snap": false,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": false,
+          "CustomMesh": {
+            "MeshURL": "https://www.dropbox.com/s/c8pmll7k66ax323/Die.obj?dl=1",
+            "DiffuseURL": "https://www.dropbox.com/s/0yrzp9zkqanl9u4/WhiteDie.jpg?dl=1",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 2,
+            "CastShadows": true
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "RotationValues": [
+            {
+              "Value": "1",
+              "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": -90.0
+              }
+            },
+            {
+              "Value": "2",
+              "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 90.0
+              }
+            },
+            {
+              "Value": "3",
+              "Rotation": {
+                "x": -90.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            {
+              "Value": "4",
+              "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": -180.0
+              }
+            },
+            {
+              "Value": "5",
+              "Rotation": {
+                "x": 90.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            {
+              "Value": "6",
+              "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            }
+          ]
+        },
+        {
+          "GUID": "wd0001",
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 43.0046349,
+            "posY": 1.27250028,
+            "posZ": -2.409789,
+            "rotX": 90.0,
+            "rotY": 0.000103788952,
+            "rotZ": 0.0,
+            "scaleX": 0.625,
+            "scaleY": 0.625,
+            "scaleZ": 0.625
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.9999998,
+            "g": 0.9921792,
+            "b": 0.9999998
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": false,
+          "Snap": false,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": false,
+          "CustomMesh": {
+            "MeshURL": "https://www.dropbox.com/s/c8pmll7k66ax323/Die.obj?dl=1",
+            "DiffuseURL": "https://www.dropbox.com/s/0yrzp9zkqanl9u4/WhiteDie.jpg?dl=1",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 2,
+            "CastShadows": true
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "RotationValues": [
+            {
+              "Value": "1",
+              "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": -90.0
+              }
+            },
+            {
+              "Value": "2",
+              "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 90.0
+              }
+            },
+            {
+              "Value": "3",
+              "Rotation": {
+                "x": -90.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            {
+              "Value": "4",
+              "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": -180.0
+              }
+            },
+            {
+              "Value": "5",
+              "Rotation": {
+                "x": 90.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            {
+              "Value": "6",
+              "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            }
+          ]
+        },
+        {
+          "GUID": "wd0002",
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 43.0046349,
+            "posY": 1.27250028,
+            "posZ": -2.409789,
+            "rotX": 90.0,
+            "rotY": 0.000103788952,
+            "rotZ": 0.0,
+            "scaleX": 0.625,
+            "scaleY": 0.625,
+            "scaleZ": 0.625
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.9999998,
+            "g": 0.9921792,
+            "b": 0.9999998
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": false,
+          "Snap": false,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": false,
+          "CustomMesh": {
+            "MeshURL": "https://www.dropbox.com/s/c8pmll7k66ax323/Die.obj?dl=1",
+            "DiffuseURL": "https://www.dropbox.com/s/0yrzp9zkqanl9u4/WhiteDie.jpg?dl=1",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 2,
+            "CastShadows": true
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "RotationValues": [
+            {
+              "Value": "1",
+              "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": -90.0
+              }
+            },
+            {
+              "Value": "2",
+              "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 90.0
+              }
+            },
+            {
+              "Value": "3",
+              "Rotation": {
+                "x": -90.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            {
+              "Value": "4",
+              "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": -180.0
+              }
+            },
+            {
+              "Value": "5",
+              "Rotation": {
+                "x": 90.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            {
+              "Value": "6",
+              "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            }
+          ]
+        },
+        {
+          "GUID": "wd0003",
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 43.0046349,
+            "posY": 1.27250028,
+            "posZ": -2.409789,
+            "rotX": 90.0,
+            "rotY": 0.000103788952,
+            "rotZ": 0.0,
+            "scaleX": 0.625,
+            "scaleY": 0.625,
+            "scaleZ": 0.625
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.9999998,
+            "g": 0.9921792,
+            "b": 0.9999998
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": false,
+          "Snap": false,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": false,
+          "CustomMesh": {
+            "MeshURL": "https://www.dropbox.com/s/c8pmll7k66ax323/Die.obj?dl=1",
+            "DiffuseURL": "https://www.dropbox.com/s/0yrzp9zkqanl9u4/WhiteDie.jpg?dl=1",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 2,
+            "CastShadows": true
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "RotationValues": [
+            {
+              "Value": "1",
+              "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": -90.0
+              }
+            },
+            {
+              "Value": "2",
+              "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 90.0
+              }
+            },
+            {
+              "Value": "3",
+              "Rotation": {
+                "x": -90.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            {
+              "Value": "4",
+              "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": -180.0
+              }
+            },
+            {
+              "Value": "5",
+              "Rotation": {
+                "x": 90.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            {
+              "Value": "6",
+              "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            }
+          ]
+        },
+        {
+          "GUID": "wd0004",
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 43.0046349,
+            "posY": 1.27250028,
+            "posZ": -2.409789,
+            "rotX": 90.0,
+            "rotY": 0.000103788952,
+            "rotZ": 0.0,
+            "scaleX": 0.625,
+            "scaleY": 0.625,
+            "scaleZ": 0.625
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.9999998,
+            "g": 0.9921792,
+            "b": 0.9999998
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": false,
+          "Snap": false,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": false,
+          "CustomMesh": {
+            "MeshURL": "https://www.dropbox.com/s/c8pmll7k66ax323/Die.obj?dl=1",
+            "DiffuseURL": "https://www.dropbox.com/s/0yrzp9zkqanl9u4/WhiteDie.jpg?dl=1",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 2,
+            "CastShadows": true
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "RotationValues": [
+            {
+              "Value": "1",
+              "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": -90.0
+              }
+            },
+            {
+              "Value": "2",
+              "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 90.0
+              }
+            },
+            {
+              "Value": "3",
+              "Rotation": {
+                "x": -90.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            {
+              "Value": "4",
+              "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": -180.0
+              }
+            },
+            {
+              "Value": "5",
+              "Rotation": {
+                "x": 90.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            {
+              "Value": "6",
+              "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            }
+          ]
+        },
+        {
+          "GUID": "wd0005",
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 43.0046349,
+            "posY": 1.27250028,
+            "posZ": -2.409789,
+            "rotX": 90.0,
+            "rotY": 0.000103788952,
+            "rotZ": 0.0,
+            "scaleX": 0.625,
+            "scaleY": 0.625,
+            "scaleZ": 0.625
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.9999998,
+            "g": 0.9921792,
+            "b": 0.9999998
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": false,
+          "Snap": false,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": false,
+          "CustomMesh": {
+            "MeshURL": "https://www.dropbox.com/s/c8pmll7k66ax323/Die.obj?dl=1",
+            "DiffuseURL": "https://www.dropbox.com/s/0yrzp9zkqanl9u4/WhiteDie.jpg?dl=1",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 2,
+            "CastShadows": true
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "RotationValues": [
+            {
+              "Value": "1",
+              "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": -90.0
+              }
+            },
+            {
+              "Value": "2",
+              "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 90.0
+              }
+            },
+            {
+              "Value": "3",
+              "Rotation": {
+                "x": -90.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            {
+              "Value": "4",
+              "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": -180.0
+              }
+            },
+            {
+              "Value": "5",
+              "Rotation": {
+                "x": 90.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            {
+              "Value": "6",
+              "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            }
+          ]
+        },
+        {
+          "GUID": "wd0006",
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 43.0046349,
+            "posY": 1.27250028,
+            "posZ": -2.409789,
+            "rotX": 90.0,
+            "rotY": 0.000103788952,
+            "rotZ": 0.0,
+            "scaleX": 0.625,
+            "scaleY": 0.625,
+            "scaleZ": 0.625
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.9999998,
+            "g": 0.9921792,
+            "b": 0.9999998
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": false,
+          "Snap": false,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": false,
+          "CustomMesh": {
+            "MeshURL": "https://www.dropbox.com/s/c8pmll7k66ax323/Die.obj?dl=1",
+            "DiffuseURL": "https://www.dropbox.com/s/0yrzp9zkqanl9u4/WhiteDie.jpg?dl=1",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 2,
+            "CastShadows": true
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "RotationValues": [
+            {
+              "Value": "1",
+              "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": -90.0
+              }
+            },
+            {
+              "Value": "2",
+              "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 90.0
+              }
+            },
+            {
+              "Value": "3",
+              "Rotation": {
+                "x": -90.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            {
+              "Value": "4",
+              "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": -180.0
+              }
+            },
+            {
+              "Value": "5",
+              "Rotation": {
+                "x": 90.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            {
+              "Value": "6",
+              "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            }
+          ]
+        },
+        {
+          "GUID": "wd0007",
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 43.0046349,
+            "posY": 1.27250028,
+            "posZ": -2.409789,
+            "rotX": 90.0,
+            "rotY": 0.000103788952,
+            "rotZ": 0.0,
+            "scaleX": 0.625,
+            "scaleY": 0.625,
+            "scaleZ": 0.625
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.9999998,
+            "g": 0.9921792,
+            "b": 0.9999998
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": false,
+          "Snap": false,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": false,
+          "CustomMesh": {
+            "MeshURL": "https://www.dropbox.com/s/c8pmll7k66ax323/Die.obj?dl=1",
+            "DiffuseURL": "https://www.dropbox.com/s/0yrzp9zkqanl9u4/WhiteDie.jpg?dl=1",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 2,
+            "CastShadows": true
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "RotationValues": [
+            {
+              "Value": "1",
+              "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": -90.0
+              }
+            },
+            {
+              "Value": "2",
+              "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 90.0
+              }
+            },
+            {
+              "Value": "3",
+              "Rotation": {
+                "x": -90.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            {
+              "Value": "4",
+              "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": -180.0
+              }
+            },
+            {
+              "Value": "5",
+              "Rotation": {
+                "x": 90.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            {
+              "Value": "6",
+              "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            }
+          ]
+        },
+        {
+          "GUID": "wd0008",
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 43.0046349,
+            "posY": 1.27250028,
+            "posZ": -2.409789,
+            "rotX": 90.0,
+            "rotY": 0.000103788952,
+            "rotZ": 0.0,
+            "scaleX": 0.625,
+            "scaleY": 0.625,
+            "scaleZ": 0.625
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.9999998,
+            "g": 0.9921792,
+            "b": 0.9999998
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": false,
+          "Snap": false,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": false,
+          "CustomMesh": {
+            "MeshURL": "https://www.dropbox.com/s/c8pmll7k66ax323/Die.obj?dl=1",
+            "DiffuseURL": "https://www.dropbox.com/s/0yrzp9zkqanl9u4/WhiteDie.jpg?dl=1",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 2,
+            "CastShadows": true
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "RotationValues": [
+            {
+              "Value": "1",
+              "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": -90.0
+              }
+            },
+            {
+              "Value": "2",
+              "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 90.0
+              }
+            },
+            {
+              "Value": "3",
+              "Rotation": {
+                "x": -90.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            {
+              "Value": "4",
+              "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": -180.0
+              }
+            },
+            {
+              "Value": "5",
+              "Rotation": {
+                "x": 90.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            {
+              "Value": "6",
+              "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            }
+          ]
+        },
+        {
+          "GUID": "wd0009",
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 43.0046349,
+            "posY": 1.27250028,
+            "posZ": -2.409789,
+            "rotX": 90.0,
+            "rotY": 0.000103788952,
+            "rotZ": 0.0,
+            "scaleX": 0.625,
+            "scaleY": 0.625,
+            "scaleZ": 0.625
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.9999998,
+            "g": 0.9921792,
+            "b": 0.9999998
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": false,
+          "Snap": false,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": false,
+          "CustomMesh": {
+            "MeshURL": "https://www.dropbox.com/s/c8pmll7k66ax323/Die.obj?dl=1",
+            "DiffuseURL": "https://www.dropbox.com/s/0yrzp9zkqanl9u4/WhiteDie.jpg?dl=1",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 2,
+            "CastShadows": true
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "RotationValues": [
+            {
+              "Value": "1",
+              "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": -90.0
+              }
+            },
+            {
+              "Value": "2",
+              "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 90.0
+              }
+            },
+            {
+              "Value": "3",
+              "Rotation": {
+                "x": -90.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            {
+              "Value": "4",
+              "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": -180.0
+              }
+            },
+            {
+              "Value": "5",
+              "Rotation": {
+                "x": 90.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            {
+              "Value": "6",
+              "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            }
+          ]
+        },
+        {
+          "GUID": "wd0010",
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 43.0046349,
+            "posY": 1.27250028,
+            "posZ": -2.409789,
+            "rotX": 90.0,
+            "rotY": 0.000103788952,
+            "rotZ": 0.0,
+            "scaleX": 0.625,
+            "scaleY": 0.625,
+            "scaleZ": 0.625
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.9999998,
+            "g": 0.9921792,
+            "b": 0.9999998
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": false,
+          "Snap": false,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": false,
+          "CustomMesh": {
+            "MeshURL": "https://www.dropbox.com/s/c8pmll7k66ax323/Die.obj?dl=1",
+            "DiffuseURL": "https://www.dropbox.com/s/0yrzp9zkqanl9u4/WhiteDie.jpg?dl=1",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 2,
+            "CastShadows": true
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "RotationValues": [
+            {
+              "Value": "1",
+              "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": -90.0
+              }
+            },
+            {
+              "Value": "2",
+              "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 90.0
+              }
+            },
+            {
+              "Value": "3",
+              "Rotation": {
+                "x": -90.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            {
+              "Value": "4",
+              "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": -180.0
+              }
+            },
+            {
+              "Value": "5",
+              "Rotation": {
+                "x": 90.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            {
+              "Value": "6",
+              "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            }
+          ]
+        },
+        {
+          "GUID": "wd0011",
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 43.0046349,
+            "posY": 1.27250028,
+            "posZ": -2.409789,
+            "rotX": 90.0,
+            "rotY": 0.000103788952,
+            "rotZ": 0.0,
+            "scaleX": 0.625,
+            "scaleY": 0.625,
+            "scaleZ": 0.625
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.9999998,
+            "g": 0.9921792,
+            "b": 0.9999998
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": false,
+          "Snap": false,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": false,
+          "CustomMesh": {
+            "MeshURL": "https://www.dropbox.com/s/c8pmll7k66ax323/Die.obj?dl=1",
+            "DiffuseURL": "https://www.dropbox.com/s/0yrzp9zkqanl9u4/WhiteDie.jpg?dl=1",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 2,
+            "CastShadows": true
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "RotationValues": [
+            {
+              "Value": "1",
+              "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": -90.0
+              }
+            },
+            {
+              "Value": "2",
+              "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 90.0
+              }
+            },
+            {
+              "Value": "3",
+              "Rotation": {
+                "x": -90.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            {
+              "Value": "4",
+              "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": -180.0
+              }
+            },
+            {
+              "Value": "5",
+              "Rotation": {
+                "x": 90.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            {
+              "Value": "6",
+              "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            }
+          ]
+        },
+        {
+          "GUID": "wd0012",
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 43.0046349,
+            "posY": 1.27250028,
+            "posZ": -2.409789,
+            "rotX": 90.0,
+            "rotY": 0.000103788952,
+            "rotZ": 0.0,
+            "scaleX": 0.625,
+            "scaleY": 0.625,
+            "scaleZ": 0.625
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.9999998,
+            "g": 0.9921792,
+            "b": 0.9999998
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": false,
+          "Snap": false,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": false,
+          "CustomMesh": {
+            "MeshURL": "https://www.dropbox.com/s/c8pmll7k66ax323/Die.obj?dl=1",
+            "DiffuseURL": "https://www.dropbox.com/s/0yrzp9zkqanl9u4/WhiteDie.jpg?dl=1",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 2,
+            "CastShadows": true
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "RotationValues": [
+            {
+              "Value": "1",
+              "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": -90.0
+              }
+            },
+            {
+              "Value": "2",
+              "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 90.0
+              }
+            },
+            {
+              "Value": "3",
+              "Rotation": {
+                "x": -90.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            {
+              "Value": "4",
+              "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": -180.0
+              }
+            },
+            {
+              "Value": "5",
+              "Rotation": {
+                "x": 90.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            {
+              "Value": "6",
+              "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            }
+          ]
+        },
+        {
+          "GUID": "wd0013",
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 43.0046349,
+            "posY": 1.27250028,
+            "posZ": -2.409789,
+            "rotX": 90.0,
+            "rotY": 0.000103788952,
+            "rotZ": 0.0,
+            "scaleX": 0.625,
+            "scaleY": 0.625,
+            "scaleZ": 0.625
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.9999998,
+            "g": 0.9921792,
+            "b": 0.9999998
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": false,
+          "Snap": false,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": false,
+          "CustomMesh": {
+            "MeshURL": "https://www.dropbox.com/s/c8pmll7k66ax323/Die.obj?dl=1",
+            "DiffuseURL": "https://www.dropbox.com/s/0yrzp9zkqanl9u4/WhiteDie.jpg?dl=1",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 2,
+            "CastShadows": true
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "RotationValues": [
+            {
+              "Value": "1",
+              "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": -90.0
+              }
+            },
+            {
+              "Value": "2",
+              "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 90.0
+              }
+            },
+            {
+              "Value": "3",
+              "Rotation": {
+                "x": -90.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            {
+              "Value": "4",
+              "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": -180.0
+              }
+            },
+            {
+              "Value": "5",
+              "Rotation": {
+                "x": 90.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            {
+              "Value": "6",
+              "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            }
+          ]
+        },
+        {
+          "GUID": "wd0014",
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 43.0046349,
+            "posY": 1.27250028,
+            "posZ": -2.409789,
+            "rotX": 90.0,
+            "rotY": 0.000103788952,
+            "rotZ": 0.0,
+            "scaleX": 0.625,
+            "scaleY": 0.625,
+            "scaleZ": 0.625
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.9999998,
+            "g": 0.9921792,
+            "b": 0.9999998
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": false,
+          "Snap": false,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": false,
+          "CustomMesh": {
+            "MeshURL": "https://www.dropbox.com/s/c8pmll7k66ax323/Die.obj?dl=1",
+            "DiffuseURL": "https://www.dropbox.com/s/0yrzp9zkqanl9u4/WhiteDie.jpg?dl=1",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 2,
+            "CastShadows": true
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "RotationValues": [
+            {
+              "Value": "1",
+              "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": -90.0
+              }
+            },
+            {
+              "Value": "2",
+              "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 90.0
+              }
+            },
+            {
+              "Value": "3",
+              "Rotation": {
+                "x": -90.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            {
+              "Value": "4",
+              "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": -180.0
+              }
+            },
+            {
+              "Value": "5",
+              "Rotation": {
+                "x": 90.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            {
+              "Value": "6",
+              "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            }
+          ]
+        }
+      ]
     },
     {
       "GUID": "11a32f",
