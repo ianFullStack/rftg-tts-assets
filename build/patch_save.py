@@ -51,9 +51,13 @@ def patch(path, fresh):
     # 3. quick-reference sheets (one per seat, inside that seat's play zone)
     d['ObjectStates'] = [o for o in d['ObjectStates'] if o.get('Nickname') != 'Quick Reference']
     zt = {o.get('GUID'): o['Transform'] for o in d['ObjectStates'] if o.get('GUID') in PLAYZONE.values()}
+    # a seat whose hidden zone is gone was cleared by removeUnseated - skip it
+    HIDDEN = {'Red':'2f0148','White':'5b098e','Purple':'1181ad','Blue':'02238f','Green':'abbef1'}
+    live = {g for g in HIDDEN.values()} & used_guids(d)
+    seats_live = {c for c,g in HIDDEN.items() if g in live}
     used = used_guids(d); made = 0
     for i, (colour, (cx, cz, rot)) in enumerate(COUNTERS.items()):
-        if PLAYZONE[colour] not in zt:      # seat was cleared - skip it
+        if PLAYZONE[colour] not in zt or colour not in seats_live:
             continue
         a = math.radians(rot)
         rx, rz = math.cos(a), -math.sin(a)
@@ -103,6 +107,43 @@ def patch(path, fresh):
                 c['Nickname'] = ''
                 bag['ContainedObjects'].append(c)
             report.append(f'white dice added to Home bag: {WHITE_POOL} (now {len(bag["ContainedObjects"])})')
+
+
+    # 5. rebuild the Game Tiles bag if it has been destroyed, holding every
+    #    tile that is not already somewhere in the game (no duplicates)
+    import os as _os, re as _re, collections as _c
+    def texkey(u):
+        if not u: return None
+        if 'raw.githubusercontent' in u: return _os.path.basename(u)
+        return _re.sub(r'[^A-Za-z0-9]','',u)+'.jpg'
+    bagobj = next((o for o in find(d, lambda o: o.get('GUID')=='ac5a81')), None)
+    if bagobj is None:
+        shipped={}
+        srcbag=None
+        for o in ref['ObjectStates']:
+            if (o.get('Nickname') or '')=='Game Tiles' and len(o.get('ContainedObjects',[]))>20:
+                srcbag=o
+            if (o.get('Nickname') or '')=='Game Tiles':
+                for c in o.get('ContainedObjects',[]):
+                    k=texkey((c.get('CustomMesh') or {}).get('DiffuseURL',''))
+                    if k: shipped[k]=c
+        have=set()
+        def scan(o):
+            if isinstance(o,dict):
+                k=texkey((o.get('CustomMesh') or {}).get('DiffuseURL',''))
+                if k in shipped: have.add(k)
+                for v in o.values(): scan(v)
+            elif isinstance(o,list):
+                for x in o: scan(x)
+        scan(d['ObjectStates'])
+        rebuilt=copy.deepcopy(srcbag)
+        rebuilt['ContainedObjects']=[copy.deepcopy(shipped[k]) for k in shipped if k not in have]
+        rebuilt['Locked']=True
+        d['ObjectStates'].append(rebuilt)
+        report.append(f'Game Tiles bag REBUILT with {len(rebuilt["ContainedObjects"])} tiles ({len(have)} already in play)')
+    else:
+        bagobj['Locked']=True
+        report.append(f'Game Tiles bag present ({len(bagobj.get("ContainedObjects",[]))} tiles), locked')
 
     if fresh:
         d['LuaScriptState'] = ''
